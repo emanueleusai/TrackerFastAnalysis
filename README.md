@@ -17,3 +17,6 @@ Todo list:
 
 In parallel:
 - adapt the geometry to allow running on CRack data
+
+Quick setups:
+- source setup.sh [on lxplus]
