@@ -1,5 +1,5 @@
 from CalibTracker.SiStripCommon.shallowTree_test_template import *
-process.TFileService.fileName = '/eos/cms/store/user/xcoubez/SiStripNtuples/test_shallowSimTracksProducer.root'
+process.TFileService.fileName = 'test_shallowSimTracksProducer.root'
 
 process.load('CalibTracker.SiStripCommon.ShallowSimTracksProducer_cfi')
 process.load('SimGeneral.TrackingAnalysis.simHitTPAssociation_cfi')

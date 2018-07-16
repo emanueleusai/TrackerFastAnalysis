@@ -1,5 +1,5 @@
 from CalibTracker.SiStripCommon.shallowTree_test_template import *
-process.TFileService.fileName = '/eos/cms/store/user/xcoubez/SiStripNtuples/test_shallowTrackClustersProducer.root'
+process.TFileService.fileName = 'test_shallowTrackClustersProducer.root'
 
 from RecoTracker.TrackProducer.TrackRefitter_cfi import TrackRefitter
 

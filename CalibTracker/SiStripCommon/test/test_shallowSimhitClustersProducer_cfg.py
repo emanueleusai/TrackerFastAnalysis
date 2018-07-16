@@ -1,5 +1,5 @@
 from CalibTracker.SiStripCommon.shallowTree_test_template import *
-process.TFileService.fileName = '/eos/cms/store/user/xcoubez/SiStripNtuples/test_shallowSimhitClustersProducer.root'
+process.TFileService.fileName = 'test_shallowSimhitClustersProducer.root'
 
 add_rawRelVals(process)
 

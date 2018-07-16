@@ -1,5 +1,5 @@
 from CalibTracker.SiStripCommon.shallowTree_test_template import *
-process.TFileService.fileName = '/eos/cms/store/user/xcoubez/SiStripNtuples/test_shallowClustersProducer.root'
+process.TFileService.fileName = 'test_shallowClustersProducer.root'
 
 process.load('CalibTracker.SiStripCommon.ShallowClustersProducer_cfi')
 process.testTree = cms.EDAnalyzer(

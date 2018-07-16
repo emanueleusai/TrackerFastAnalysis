@@ -1,5 +1,5 @@
 from CalibTracker.SiStripCommon.shallowTree_test_template import *
-process.TFileService.fileName = '/eos/cms/store/user/xcoubez/SiStripNtuples/test_shallowGeneralProducer.root'
+process.TFileService.fileName = '/eos/cms/store/user/xcoubez/SiStripNtuples/test_shallowGeneralProducerTTbar.root'
 
 ### Making the code run on MC / data and Collisions / Cosmics
 from FWCore.ParameterSet.VarParsing import VarParsing
@@ -12,7 +12,7 @@ options.register('runOnData', True,
     "Run on data"
 )
 
-options.register('runOnCosmics', True,
+options.register('runOnCosmics', False,
     VarParsing.multiplicity.singleton,
     VarParsing.varType.bool,
     "Run on cosmics"

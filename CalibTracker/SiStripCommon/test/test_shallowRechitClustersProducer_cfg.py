@@ -1,5 +1,5 @@
 from CalibTracker.SiStripCommon.shallowTree_test_template import *
-process.TFileService.fileName = '/eos/cms/store/user/xcoubez/SiStripNtuples/test_shallowRechitClustersProducer.root'
+process.TFileService.fileName = 'test_shallowRechitClustersProducer.root'
 process.load('RecoTracker.TrackProducer.TrackRefitters_cff')
 process.load('CalibTracker.SiStripCommon.ShallowRechitClustersProducer_cfi')
 
