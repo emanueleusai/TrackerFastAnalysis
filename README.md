@@ -9,11 +9,15 @@ Status:
 - CalibTracker : running on data / MC, cosmics / collisions. Contains clusters, tracks, ...
 
 More information:
+...
 
 Todo list:
 - add muon information
+- add seed information
 - allow tuning of event content to control the size of the output files
 - allow sampling of events from collisions to control the size of the output files
+
+- duplicate in more recent release for 2018
 
 In parallel:
 - adapt the geometry to allow running on CRack data
